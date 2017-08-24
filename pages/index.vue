@@ -6,7 +6,9 @@
       </div>
       <div class="foreground">
         <div class="page-bar wrapper">
-          <a href="/" class="person-name">{{ person.fields.name }}</a>
+          <nuxt-link to="/" class="person-name">
+            {{ person.fields.name }} rocks
+          </nuxt-link>
           <Navigation></Navigation>
         </div>
         <div class="page-info wrapper">

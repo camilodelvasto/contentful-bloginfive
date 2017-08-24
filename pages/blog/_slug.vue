@@ -3,7 +3,9 @@
     <header class="article header">
       <div class="foreground">
         <div class="page-bar wrapper">
-          <a href="/" class="person-name">John Doe</a>
+          <nuxt-link to="/" class="person-name">
+            John Doe
+          </nuxt-link>
           <Navigation></Navigation>
         </div>
       </div>
